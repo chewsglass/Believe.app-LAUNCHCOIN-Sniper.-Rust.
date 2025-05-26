@@ -29,6 +29,9 @@ use tokio::sync::RwLock;
 use tokio_tungstenite::{connect_async, tungstenite::protocol::Message};
 use url::Url;
 
+
+// dont forget to add your own wallet near the bottom!
+
 // user config v
 const USE_JITO: bool = true;
 const JITO_URL: &str = "https://amsterdam.mainnet.block-engine.jito.wtf/api/v1/bundles";
